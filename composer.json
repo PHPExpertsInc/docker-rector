@@ -3,7 +3,7 @@
     "description": "The quickest and easiest way to run rector/rector with any PHP app.",
     "keywords": [
         "rector",
-        "rector/rector",
+        "rector",
         "docker",
         "dockerize",
         "static analysis"
