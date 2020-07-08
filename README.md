@@ -1,17 +1,17 @@
-# Docker PHAN
+# Docker Rector
 
-A utility for rapidly deploying [PHAN](https://github.com/phan/phan) for PHP apps.
+A utility for rapidly deploying [Rector](https://github.com/rector/rector) for PHP apps.
 
 Includes: 
  * PHP v7.4
- * Latest php-phan
+ * Latest php-rector
  * ext-ast
 
 It is based off of [**phpexperts/dockerize**](https://github.com/phpexpertsinc/dockerize-php).
 
 # Installation
 
-    composer require --dev phpexperts/docker-phan 
+    composer require --dev phpexperts/docker-rector
 
 ### Installation Video
 
@@ -25,7 +25,7 @@ Ensure that your profile PATH includes `./vendor/bin` and that it takes priority
 
 # Running
 
-Run as normal, per the [phpan documentation](https://github.com/phan/phan).
+Run as normal, per the [rector documentation](https://github.com/rector/rector).
 
 # About PHP Experts, Inc.
 
