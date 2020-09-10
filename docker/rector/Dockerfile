@@ -33,4 +33,4 @@ RUN apt-get update && \
 VOLUME ["/workdir"]
 WORKDIR /workdir
 
-ENTRYPOINT ["/root/.composer/vendor/bin/rector"]
+ENTRYPOINT ["/root/.config/composer/vendor/bin/rector"]
